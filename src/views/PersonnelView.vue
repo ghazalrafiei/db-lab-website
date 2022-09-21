@@ -1,5 +1,11 @@
 <script setup>
 import Personnel from "../components/personnel/Index.vue";
+import ShahramGhandeharizadeh from "@/assets/images/ShahramGhandeharizadeh.jpg";
+import HeatherCulbertson from "@/assets/images/HeatherCulbertson.jpg";
+import HamedAlimohammadzadeh from "@/assets/images/HamedAlimohammadzadeh.webp";
+import JiadongBai from "@/assets/images/JiadongBai.jpg";
+import ShuqinZhu from "@/assets/images/ShuqinZhu.jpg";
+import YangChen from "@/assets/images/YangChen.jpg";
 
 const personnelGroups = [
   {
@@ -7,7 +13,7 @@ const personnelGroups = [
     items: [
       {
         name: "Professor Shahram Ghandeharizadeh",
-        photo: "./src/assets/images/ShahramGhandeharizadeh.jpg",
+        photo: ShahramGhandeharizadeh,
       },
     ],
   },
@@ -16,7 +22,7 @@ const personnelGroups = [
     items: [
       {
         name: "Professor Heather Culbertson",
-        photo: "./src/assets/images/HeatherCulbertson.jpg",
+        photo: HeatherCulbertson,
       },
     ],
   },
@@ -25,7 +31,7 @@ const personnelGroups = [
     items: [
       {
         name: "Hamed Alimohammadzadeh",
-        photo: "./src/assets/images/HamedAlimohammadzadeh.webp",
+        photo: HamedAlimohammadzadeh,
       },
     ],
   },
@@ -34,11 +40,11 @@ const personnelGroups = [
     items: [
       {
         name: "Jiadong Bai",
-        photo: "./src/assets/images/JiadongBai.jpg",
+        photo: JiadongBai,
       },
       {
         name: "Shuqin Zhu",
-        photo: "./src/assets/images/ShuqinZhu.jpg",
+        photo: ShuqinZhu,
       },
     ],
   },
@@ -47,7 +53,7 @@ const personnelGroups = [
     items: [
       {
         name: "Yang Chen",
-        photo: "./src/assets/images/YangChen.jpg",
+        photo: YangChen,
       },
     ],
   },
