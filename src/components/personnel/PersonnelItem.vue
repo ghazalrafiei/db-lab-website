@@ -9,8 +9,10 @@ defineProps({
 
 <template>
   <div class="mb-8">
-    <div class="w-48 h-48 mb-2 border rounded-md border-gray-800">
-      <img v-if="photoSrc" :src="photoSrc" width="100%" height="100%" />
+    <div
+      class="w-44 h-44 mb-2 grid place-content-center overflow-hidden border rounded-md border-gray-800"
+    >
+      <img v-if="photoSrc" :src="photoSrc" width="174" />
     </div>
 
     <div>

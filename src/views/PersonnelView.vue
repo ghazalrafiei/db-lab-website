@@ -6,8 +6,8 @@ const personnelGroups = [
     title: "Lab directory",
     items: [
       {
-        name: "Shahram Ghandeharizadeh",
-        photo: "",
+        name: "Professor Shahram Ghandeharizadeh",
+        photo: "./src/assets/images/ShahramGhandeharizadeh.jpg",
       },
     ],
   },
@@ -15,8 +15,8 @@ const personnelGroups = [
     title: "Affiliated faculty",
     items: [
       {
-        name: "Header Culbertson",
-        photo: "",
+        name: "Professor Heather Culbertson",
+        photo: "./src/assets/images/HeatherCulbertson.jpg",
       },
     ],
   },
@@ -25,7 +25,7 @@ const personnelGroups = [
     items: [
       {
         name: "Hamed Alimohammadzadeh",
-        photo: "",
+        photo: "./src/assets/images/HamedAlimohammadzadeh.webp",
       },
     ],
   },
@@ -34,11 +34,11 @@ const personnelGroups = [
     items: [
       {
         name: "Jiadong Bai",
-        photo: "",
+        photo: "./src/assets/images/JiadongBai.jpg",
       },
       {
         name: "Shuqin Zhu",
-        photo: "",
+        photo: "./src/assets/images/ShuqinZhu.jpg",
       },
     ],
   },
@@ -47,7 +47,7 @@ const personnelGroups = [
     items: [
       {
         name: "Yang Chen",
-        photo: "",
+        photo: "./src/assets/images/YangChen.jpg",
       },
     ],
   },
