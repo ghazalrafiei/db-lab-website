@@ -1,7 +1,7 @@
 <script setup>
 const technologies = [
   "FLS-Matter and 3D Displays",
-  "Positioning and Communication",
+  "Localization and Communication",
   "Fault Tolerance",
   "Limited Battery",
 ];
