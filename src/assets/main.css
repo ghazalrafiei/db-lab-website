@@ -1,0 +1,25 @@
+@import "./base.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .active-link {
+        @apply relative !text-white font-bold before:h-0.5 before:rounded before:absolute before:left-0 before:w-full before:top-full before:bg-red-500 before:bg-gradient-to-r before:from-teal-500 before:via-sky-500 before:to-purple-500;
+    }
+}
+
+@layer base {
+    h1, h2, h3, h4, h5, h6 {
+        @apply text-white;
+    }
+
+    a[target="_blank"] {
+        @apply text-cyan-500 transition-colors rounded p-px;
+    }
+
+    a[target="_blank"]:hover {
+        background-color: rgba(6, 182, 212, 0.25);
+    }
+}
