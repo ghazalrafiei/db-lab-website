@@ -3,7 +3,6 @@ import Personnel from "../components/personnel/Index.vue";
 import ShahramGhandeharizadeh from "@/assets/images/ShahramGhandeharizadeh.jpg";
 import HeatherCulbertson from "@/assets/images/HeatherCulbertson.jpg";
 import HamedAlimohammadzadeh from "@/assets/images/HamedAlimohammadzadeh.jpg";
-import JiadongBai from "@/assets/images/JiadongBai.jpg";
 import ShuqinZhu from "@/assets/images/ShuqinZhu.jpg";
 import YangChen from "@/assets/images/YangChen.jpg";
 
@@ -33,21 +32,17 @@ const personnelGroups = [
         name: "Hamed Alimohammadzadeh",
         photo: HamedAlimohammadzadeh,
       },
-    ],
-  },
-  {
-    title: "M.S. students",
-    items: [
-      {
-        name: "Jiadong Bai",
-        photo: JiadongBai,
-      },
       {
         name: "Shuqin Zhu",
         photo: ShuqinZhu,
       },
     ],
   },
+  // {
+  //   title: "M.S. students",
+  //   items: [
+  //   ],
+  // },
   {
     title: "Affiliated Ph.D. students",
     items: [
