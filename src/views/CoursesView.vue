@@ -3,7 +3,7 @@ const courses = [
   {
     number: "CSCI 485",
     title: "File and Database Management",
-    syllabus: "syllabus",
+    syllabus: "https://web-app.usc.edu/soc/syllabus/20203/30110.pdf",
   },
 ];
 </script>
@@ -17,10 +17,10 @@ const courses = [
         <span class="text-white">{{ i + 1 }}</span>
         <span class="text-cyan-500">.</span>
 
-        {{ course.number }}, {{ course.title }}
+        {{ course.number }}: {{ course.title }}
 
         <a v-if="course.syllabus" :href="course.syllabus" target="_blank">
-          syllabus
+          [Syllabus]
         </a>
       </li>
     </ol>
