@@ -1,9 +1,7 @@
 <script setup>
 const technologies = [
-  "FLS-Matter and 3D Displays",
-  "Localization and Communication",
-  "Fault Tolerance",
-  "Limited Battery",
+"FoundationDB",
+"JanusGraph"
 ];
 </script>
 

@@ -1,14 +1,11 @@
 <script setup>
 import Personnel from "../components/personnel/Index.vue";
 import ShahramGhandeharizadeh from "@/assets/images/ShahramGhandeharizadeh.jpg";
-import HeatherCulbertson from "@/assets/images/HeatherCulbertson.jpg";
-import HamedAlimohammadzadeh from "@/assets/images/HamedAlimohammadzadeh.jpg";
-import ShuqinZhu from "@/assets/images/ShuqinZhu.jpg";
-import YangChen from "@/assets/images/YangChen.jpg";
-
+import GhazalRafiei from "@/assets/images/GhazalRafiei.jpg"
+import ArushiChauhan from "@/assets/images/ArushiChauhan.jpg"
 const personnelGroups = [
   {
-    title: "Lab directory",
+    title: "Lab Directory",
     items: [
       {
         name: "Professor Shahram Ghandeharizadeh",
@@ -17,40 +14,26 @@ const personnelGroups = [
     ],
   },
   {
-    title: "Affiliated faculty",
+    title: "Ph.D. Students",
     items: [
       {
-        name: "Professor Heather Culbertson",
-        photo: HeatherCulbertson,
+        name: "Ghazal Rafiei",
+        photo: GhazalRafiei,
       },
     ],
   },
   {
-    title: "Ph.D. students",
-    items: [
+    title: "M.S. Students",
+    items:[
       {
-        name: "Hamed Alimohammadzadeh",
-        photo: HamedAlimohammadzadeh,
+        name: "Arushi Chauhan",
+        photo: ArushiChauhan,
       },
       {
-        name: "Shuqin Zhu",
-        photo: ShuqinZhu,
+        name: "Romtin Toranji",
+      // //   photo: ___,
       },
-    ],
-  },
-  // {
-  //   title: "M.S. students",
-  //   items: [
-  //   ],
-  // },
-  {
-    title: "Affiliated Ph.D. students",
-    items: [
-      {
-        name: "Yang Chen",
-        photo: YangChen,
-      },
-    ],
+      ]
   },
 ];
 </script>

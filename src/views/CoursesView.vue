@@ -1,9 +1,9 @@
 <script setup>
 const courses = [
   {
-    number: "CSCI 599",
-    title: "Introduction to Holodecks",
-    syllabus: "https://web-app.usc.edu/soc/syllabus/20223/30034.pdf",
+    number: "CSCI 485",
+    title: "File and Database Management",
+    syllabus: "syllabus",
   },
 ];
 </script>
