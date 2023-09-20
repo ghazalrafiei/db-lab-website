@@ -6,7 +6,7 @@
 
 @layer components {
     .active-link {
-        @apply relative !text-white font-bold before:h-0.5 before:rounded before:absolute before:left-0 before:w-full before:top-full before:bg-red-500 before:bg-gradient-to-r before:from-teal-500 before:via-sky-500 before:to-purple-500;
+        @apply relative !text-white font-bold before:h-0.5 before:rounded before:absolute before:left-0 before:w-full before:top-full before:bg-red-500 before:bg-gradient-to-r before:from-pink-500 before:via-purple-500 before:to-pink-500;
     }
 }
 
