@@ -1,29 +1,30 @@
 <script setup>
 const publications = [
-  // {
-  //   cite: "T. Phan, H. Alimohammadzadeh, H. Culbertson, and S. Ghandeharizadeh. An Evaluation of Three Distance Measurement Technologies for Flying Light Specks. 2023.",
-  //   pdf: "https://arxiv.org/pdf/2308.10115.pdf",
-  // },
-  // {
-  //   cite: "H. Alimohammadzadeh, R. Bernard, Y. Chen, T. Phan, P. Singh, S. Zhu, H. Culbertson, and S. Ghandeharizadeh. Dronevision: An Experimental 3D Testbed for Flying Light Specks. 2023.",
-  //   pdf: "https://arxiv.org/pdf/2308.10121.pdf",
-  // },
-  // {
-  //   cite: "H. Alimohammadzadeh, D. Mehraban, and S. Ghandeharizadeh. Modeling Illumination Data with Flying Light Specks. In Proceedings of the 14th Conference on ACM Multimedia Systems, Vancouver, Canada, June 2023.",
-  //   pdf: "https://dl.acm.org/doi/pdf/10.1145/3587819.3592544",
-  // },
-  // {
-  //   cite: "S. Ghandeharizadeh. Display of 3D Illuminations using Flying Light Specks. In ACM Multimedia, Lisbon, Portugal, October 2022.",
-  //   pdf: "https://arxiv.org/pdf/2207.08346.pdf",
-  // },
-  // {
-  //   cite: "S. Ghandeharizadeh and L. Garcia. Safety in the Emerging Holodeck Applications. In CHI 2022 Workshop on Novel Challenges of Safety, Security and Privacy in Extended Reality, April 25, 2022.",
-  //   pdf: "https://arxiv.org/pdf/2208.08398.pdf",
-  // },
-  // {
-  //   cite: "S. Ghandeharizadeh. Holodeck: Immersive 3D Displays Using Swarms of Flying Light Specks. In ACM Multimedia Asia, Gold Coast, Australia, December 1-3, 2021.",
-  //   pdf: "https://arxiv.org/pdf/2111.03657.pdf",
-  // },
+  {
+    cite: "Huang, H., & Ghandeharizadeh, S. (2021). Nova-LSM: A Distributed, Component-based LSM-tree Key-value Store. Proceedings of the 2021 International Conference on Management of Data.",
+    Link: "https://arxiv.org/pdf/2104.01305.pdf"
+  },
+    {
+    cite: "Alabdulkarim, Y., Almaymoni, M., & Ghandeharizadeh, S. (2018). Polygraph: A Plug-n-Play Framework to Quantify Anomalies. 2018 IEEE 34th International Conference on Data Engineering (ICDE), 1308-1311.",
+    Link: "https://www.computer.org/csdl/journal/tk/2021/03/08824105/1d3dTjSDQWs",
+    },
+    {
+    cite: "Ghandeharizadeh, S., & Nguyen, H. (2019). Design, Implementation, and Evaluation of Write-Back Policy with Cache Augmented Data Stores. Proc. VLDB Endow., 12, 836-849.",
+    Link: "http://www.vldb.org/pvldb/vol12/p836-ghandeharizadeh.pdf",
+    },
+    {
+      cite: "Ghandeharizadeh, S., Almaymoni, M., & Huang, H. (2018). Rejig: A Scalable Online Algorithm for Cache Server Configuration Changes. Proceedings of the ACM Symposium on Cloud Computing.",
+      Link: "https://dl.acm.org/doi/abs/10.1145/3274808.3274819",
+    },
+    {
+      cite: "Ghandeharizadeh, S., Irani, S., & Lam, J. (2018). On Configuring a Hierarchy of Storage Media in the Age of NVM. 2018 IEEE 34th International Conference on Data Engineering (ICDE), 1380-1383.",
+      Link: "https://ieeexplore.ieee.org/document/8509376",
+    },
+    {
+      cite: "Ghandeharizadeh, Shahram & Boghrati, Reihane & Barahmand, Sumita. (2014). An Evaluation of Alternative Physical Graph Data Designs for Processing Interactive Social Networking Actions. 8904. 13-28. 10.1007/978-3-319-15350-6_2.",
+      Link: "https://link.springer.com/chapter/10.1007/978-3-319-15350-6_2",
+    }
+
 ];
 </script>
 
@@ -36,8 +37,8 @@ const publications = [
         <span class="text-white">{{ i + 1 }}</span>
         <span class="text-cyan-500">.</span>
         {{ pub.cite }}
-
-        <a v-if="pub.pdf" :href="pub.pdf" target="_blank"> pdf </a>
+        <br>
+        <a v-if="pub.Link" :href="pub.Link" target="_blank"> [Link] </a>
       </li>
     </ol>
   </div>
