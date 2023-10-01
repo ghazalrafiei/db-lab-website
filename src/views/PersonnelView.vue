@@ -3,6 +3,7 @@ import Personnel from "../components/personnel/Index.vue";
 import ShahramGhandeharizadeh from "@/assets/images/ShahramGhandeharizadeh.jpg";
 import GhazalRafiei from "@/assets/images/GhazalRafiei.jpg"
 import ArushiChauhan from "@/assets/images/ArushiChauhan.jpg"
+import RomtinToranji from "@/assets/images/RomtinToranji.jpg"
 const personnelGroups = [
   {
     title: "Lab Directory",
@@ -31,7 +32,7 @@ const personnelGroups = [
       },
       {
         name: "Romtin Toranji",
-      // //   photo: ___,
+        photo: RomtinToranji,
       },
       ]
   },
