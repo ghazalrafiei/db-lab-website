@@ -5,6 +5,15 @@ const courses = [
     title: "File and Database Management",
     syllabus: "https://web-app.usc.edu/soc/syllabus/20203/30110.pdf",
   },
+  {
+    number: "CSCI 550",
+    title: "Advanced Data Stores",
+    syllabus: "https://web-app.usc.edu/soc/syllabus/20203/30037.pdf",
+  },
+  {
+    number: "CSCI 685",
+    title: "Advanced Topics in Database Systems"
+  },
 ];
 </script>
 
